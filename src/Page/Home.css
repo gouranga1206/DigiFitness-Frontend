@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+
+.introLine{
+    width:60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    
+}
+
+.tag{
+    width: 25vw;
+    height: 6vh;
+    background: url('../assets/tag.png') no-repeat;
+    background-size: contain;
+}
+
+.introLine h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.introLine h3{
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+    color: grey;
+    margin-top: -.5vh;
+    font-weight: 400;
+}
+
+/* ------------ Images------------- */
+
+.Images{
+    width:80vw;
+    height:50vh;
+    display: flex;
+    align-items: center;
+}
+
+.img-check{
+    width: 20vw;
+    height: 40vh;
+    margin: 20px;
+}
+
+.img-a{
+    background: url('../assets/RectangleMen.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.img-b{
+    background: url('../assets/RectangleWomen.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.img-c{
+    background: url('../assets/RectangleYoga.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.img-d{
+    background: url('../assets/RectangleBody.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* ----Expand_Course----- */
+
+.Expand_Course{
+    width: 78vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ExCour{
+    width:18%;
+}
+
+.info{
+    width:50%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.info p{
+    color: gray;
+    font-size: 1.5em;
+    margin-top: -1.3vh;
+    font-weight: 400;
+}

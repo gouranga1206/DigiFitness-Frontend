@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.navbar{
+    width:100vw;
+    height: 8vh;
+    background-color:#06131C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav_Menu{
+    width:85vw;
+    height: 100%;
+
+}
+
+#menus{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    list-style: none;
+}
+
+#menus li{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menus li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.arrow{
+    width:2vw;
+    height:2vw;
+    background: url('../assets/Caret_Down.png') no-repeat;
+    background-position: center;
+
+}

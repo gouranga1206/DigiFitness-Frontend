@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.videoBanner{
+    width:100vw;
+    height:55vh;
+    background: #0F202B;
+    display: flex;
+}
+
+.videoBanner__content_one{
+    width:50vw;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.videoBanner__content_one p{
+    width:55%;
+    font-size: 3.2em;
+    color:#ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    margin-top: 10vh;
+    margin-left: 11vw;
+    margin-bottom: -2.8vh;
+}
+
+.style_text{
+    height:12vh;
+    width:28.499999999999996vw;
+    margin-left: 10.5vw;
+    background: url('../assets/Digifitness.png') no-repeat;
+    background-size: contain;
+    transform: rotate(-.98deg);
+    margin-bottom: -3vh;
+}
+
+.Redirect_Buttons{
+    width: 45%;
+    height: 8vh;
+    margin-top: 5vh;
+    margin-left: 11vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.VC_1{
+    background: transparent;
+    border: 1px solid whitesmoke;
+    color:#ffffff;
+}
+
+#arrow-1{
+    width:2vw;
+    height: 4vh;
+    background: url('../assets/Arrow_up.png') no-repeat;
+    background-position: center;
+}
+
+.videoBanner__content_two{
+    width:50vw;
+    height: 100%; 
+    background: url('../assets/video_part.png') no-repeat;
+    background-size: cover;
+}
