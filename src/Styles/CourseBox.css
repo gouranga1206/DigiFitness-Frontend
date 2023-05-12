@@ -1,0 +1,70 @@
+.Images-box{
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    width:30vw;
+    height:90%;
+    margin: auto 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    z-index: 1;
+}
+
+.img-check-box{
+    width: 90%;
+    height: 48%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.img-ab-1{
+    background: url('../assets/Rectangle14.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.img-ab-2{
+    background: url('../assets/Rectangle14-1.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.img-ab-3{
+    background: url('../assets/Rectangle14-2.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.img-ab-4{
+    background: url('../assets/Rectangle14-3.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.img-ab-5{
+    background: url('../assets/Rectangle14-4.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.img-ab-6{
+    background: url('../assets/Rectangle14-5.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.text{
+    width:90%;
+    height:100px;
+    font-family: "Open Sans", sans-serif;
+}
+.text p{
+    color: gray;
+    font-size:  1vw;
+
+}

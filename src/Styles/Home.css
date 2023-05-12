@@ -80,6 +80,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom:20px;
 }
 
 .ExCour{
@@ -90,6 +91,9 @@
     width:50%;
     height: 100%;
     font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 .info p{
@@ -97,4 +101,14 @@
     font-size: 1.5em;
     margin-top: -1.3vh;
     font-weight: 400;
+}
+
+.new_text p{
+    color: black;
+    font-size: 1em;
+    margin-top: -1.3vh;
+    font-weight: 100;
+}
+.new_text p b{
+    margin-right: 20px;
 }

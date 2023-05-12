@@ -1,4 +1,4 @@
-import './SearchBanner.css'
+import '../Styles/SearchBanner.css'
 
 export default function SearchBanner() {
     return(

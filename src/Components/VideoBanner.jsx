@@ -1,4 +1,4 @@
-import './VideoBanner.css'
+import '../Styles/VideoBanner.css'
 
 export default function VideoBanner() {
     return (
