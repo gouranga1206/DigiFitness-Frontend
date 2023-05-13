@@ -1,0 +1,162 @@
+.Rating-box {
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
+}
+
+.box-course-rating {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 10px;
+  background: #ffffff;
+  box-shadow: -1px -2px 17px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.play{
+    width:80px;
+    height: 80px;
+    background: url('../assets/Play.png') no-repeat center;
+    background-size: contain;
+}
+
+.img-rating-box{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.img-rating-1{
+    background: url('../assets/Rectangle53.png') no-repeat center;
+    background-size: contain;
+}
+
+.img-rating-2{
+    background: url('../assets/Rectangle53-1.png') no-repeat center;
+    background-size: contain;
+}
+
+.img-rating-3{
+  background: url('../assets/Rectangle53-2.png') no-repeat center;
+  background-size: contain;
+}
+
+.img-rating-4{
+  background: url('../assets/Rectangle53-3.png') no-repeat center;
+  background-size: contain;
+}
+.img-rating-5{
+  background: url('../assets/Rectangle53-4.png') no-repeat center;
+  background-size: contain;
+}
+.img-rating-6{
+  background: url('../assets/Rectangle53-5.png') no-repeat center;
+  background-size: contain;
+}
+.img-rating-7{
+  background: url('../assets/Rectangle53-6.png') no-repeat center;
+  background-size: contain;
+}
+.img-rating-8{
+  background: url('../assets/Rectangle53-7.png') no-repeat center;
+  background-size: contain;
+}
+.img-rating-9{
+  background: url('../assets/Rectangle53-8.png') no-repeat center;
+  background-size: contain;
+}
+
+/* Layouting */
+
+.text-rating{
+  width:90%;
+  height:48%;
+  font-family: "Open Sans";
+}
+.text-rating h4{
+  width:100%;
+  font-size: 1.2em;
+}
+
+.text-rating p{
+  width:100%;
+  font-size: 1em;
+  color: grey;
+}
+.stars{
+  width:48%;
+  height:28px;
+  background: url('../assets/Frame120.png') no-repeat ;
+  background-size: contain;
+  background-position: initial;
+}
+
+.course-core{
+  width:58%;
+  height:10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-core-list{
+  width:40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.course-core-list-img{
+  width: 20%;
+  height: 100%;
+  margin-right: 5px;
+}
+
+.list-img-1{
+  background: url('../assets/File_Document.png') no-repeat center;
+  background-size: contain;
+
+}
+
+.list-img-2{
+  background: url('../assets/Users_Group.png') no-repeat center;
+  background-size: contain;
+
+}
+
+.course-core-list p{
+  font-size: 0.7em;
+}
+
+/* -user-pic- */
+.User-Pic{
+  width: 58%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.User-Pic p{
+  font-size: 0.8em;
+  margin-left: 12px;
+  font-weight: 600;
+  color: black;
+}
+
+.User-Pic-img{
+  width: 20%;
+  height: 100%;
+  margin-right: 5px;
+  background: url('../assets/Ellipse6.png') no-repeat center;
+  background-size: contain;
+}
+

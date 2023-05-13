@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import VideoBanner from "../Components/VideoBanner";
 import CourseBox from "../Components/CourseBox";
 import MiddleBanner from "../Components/MiddleBanner";
+import Rating from "../Components/Rating";
 import "../Styles/Home.css";
 
 export default function Home() {
@@ -40,18 +41,54 @@ export default function Home() {
       </div>
 
       {/* ------------------- */}
+
       <CourseBox />
       <MiddleBanner />
+
       {/* ------------------- */}
+
       <div className="Expand_Course">
         <div className="info new_text">
           <h1>Course Content</h1>
-          <p><b>32 Sections</b><b>376 lectures</b><b>27h 8m total length</b></p>
+          <p>
+            <b>32 Sections</b>
+            <b>376 lectures</b>
+            <b>27h 8m total length</b>
+          </p>
         </div>
         <div className="Button sign-in ExCour">
           Expand all Course<div id="arrow-1"></div>
         </div>
       </div>
+
+      <div className="banner-divider">
+        <div className="partners">
+          <h1>The Best Trusted Client in this Fitness world</h1>
+          <div className="logos-partner">
+            <div className="logos logo-img-a"></div>
+            <div className="logos logo-img-b"></div>
+            <div className="logos logo-img-c"></div>
+            <div className="logos logo-img-d"></div>
+            <div className="logos logo-img-e"></div>
+            <div className="logos logo-img-f"></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="Expand_Course">
+        <div className="info post2">
+          <div className="img-Tag"></div>
+          <p>Most Popular Courses</p>
+        </div>
+        <div className="Button sign-in ExCour">
+          Expand all Course<div id="arrow-1"></div>
+        </div>
+      </div>
+
+    {/* --------------------- */}
+
+    <Rating />
+
 
     </div>
   );
