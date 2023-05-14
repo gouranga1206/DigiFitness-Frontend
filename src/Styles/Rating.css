@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 5vh;
+  z-index: 1;
 }
 
 .box-course-rating {
@@ -80,6 +81,9 @@
   width:90%;
   height:48%;
   font-family: "Open Sans";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .text-rating h4{
   width:100%;
@@ -142,7 +146,7 @@
   height: 10%;
   display: flex;
   align-items: center;
-  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .User-Pic p{
@@ -160,3 +164,42 @@
   background-size: contain;
 }
 
+.pricing{
+  width:100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.pricing p{
+  width:50%;
+  color: black;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.pricing p del{
+  color:rgb(187, 186, 186);
+  margin-left: 10px;
+}
+
+.Learn-More{
+  width: 35%;
+  height: 100%;
+  display: flex;
+  color:black;
+  justify-content:space-around;
+  align-items: center;
+  font-size: 1.1  rem;
+}
+
+#arrow-black{
+  width: 30px;
+  height: 100%;
+  font-size: 1.65rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transform: rotate(10deg);
+}

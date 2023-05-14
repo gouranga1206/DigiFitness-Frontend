@@ -85,11 +85,9 @@ export default function Home() {
         </div>
       </div>
 
-    {/* --------------------- */}
+      {/* --------------------- */}
 
-    <Rating />
-
-
+      <Rating />
     </div>
   );
 }
