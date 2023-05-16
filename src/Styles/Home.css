@@ -71,6 +71,9 @@
 
 /* ----Expand_Course----- */
 
+.jump{
+  margin-top:155vh;
+}
 .Expand_Course {
   width: 78vw;
   height: 10vh;

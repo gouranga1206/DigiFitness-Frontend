@@ -5,8 +5,6 @@ export default function MiddleBanner() {
     <>
       <div className="poster-mid">
         <div className="banner_one"></div>
-        <div className="banner_two"></div>
-      </div>
       <div className="banner_internal">
         <div className="banner_content">
           <div className="content_lines">
@@ -80,6 +78,7 @@ export default function MiddleBanner() {
       </div>
       <div className="banner_three">
         <div className="poster"></div>
+      </div>
       </div>
     </>
   );

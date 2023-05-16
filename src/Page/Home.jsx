@@ -2,8 +2,11 @@ import SearchBanner from "../Components/SearchBanner";
 import Navbar from "../Components/Navbar";
 import VideoBanner from "../Components/VideoBanner";
 import CourseBox from "../Components/CourseBox";
+import Scrollable from "../Components/Scrollable";
 import MiddleBanner from "../Components/MiddleBanner";
 import Rating from "../Components/Rating";
+import SecondMiddleBanner from "../Components/SecondMiddleBanner";
+import Slider from "../Components/Slide";
 import "../Styles/Home.css";
 
 export default function Home() {
@@ -47,7 +50,7 @@ export default function Home() {
 
       {/* ------------------- */}
 
-      <div className="Expand_Course">
+      <div className="Expand_Course jump">
         <div className="info new_text">
           <h1>Course Content</h1>
           <p>
@@ -60,6 +63,8 @@ export default function Home() {
           Expand all Course<div id="arrow-1"></div>
         </div>
       </div>
+
+      <Scrollable />
 
       <div className="banner-divider">
         <div className="partners">
@@ -87,7 +92,10 @@ export default function Home() {
 
       {/* --------------------- */}
 
+
       <Rating />
+      <SecondMiddleBanner />
+      <Slider />
     </div>
   );
 }
