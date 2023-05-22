@@ -7,7 +7,11 @@ import MiddleBanner from "../Components/MiddleBanner";
 import Rating from "../Components/Rating";
 import SecondMiddleBanner from "../Components/SecondMiddleBanner";
 import Slider from "../Components/Slide";
+import PurchasePlan from "../Components/PurchasePlan";
+import Footer from "../Components/Footer";
 import "../Styles/Home.css";
+
+import {Link} from "react-router-dom";
 
 export default function Home() {
   return (
@@ -38,9 +42,11 @@ export default function Home() {
           <h1>Choose the Program</h1>
           <p>Are you want to change your life?</p>
         </div>
+       
         <div className="Button sign-in ExCour">
-          Expand all Course<div id="arrow-1"></div>
+        <Link to='/course'> Expand all Course<div id="arrow-1"></div> </Link>
         </div>
+       
       </div>
 
       {/* ------------------- */}
@@ -60,7 +66,7 @@ export default function Home() {
           </p>
         </div>
         <div className="Button sign-in ExCour">
-          Expand all Course<div id="arrow-1"></div>
+        <Link to='/course'> Expand all Course<div id="arrow-1"></div> </Link>
         </div>
       </div>
 
@@ -86,16 +92,17 @@ export default function Home() {
           <p>Most Popular Courses</p>
         </div>
         <div className="Button sign-in ExCour">
-          Expand all Course<div id="arrow-1"></div>
+        <Link to='/course'> Expand all Course<div id="arrow-1"></div> </Link>
         </div>
       </div>
 
       {/* --------------------- */}
 
-
       <Rating />
       <SecondMiddleBanner />
       <Slider />
+      <PurchasePlan />
+      <Footer />
     </div>
   );
 }

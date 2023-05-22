@@ -86,7 +86,15 @@
 .ExCour {
   width: 18%;
 }
+.ExCour a{
+  width: 78%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
+}
 .info {
   width: 50%;
   height: 100%;

@@ -1,0 +1,24 @@
+.course{
+    width:100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course_punchtext{
+    width:60vw;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #282828;
+    margin-bottom: 20px;
+    font-family: "open sans",sans-serif;
+}
+.course_headingText{
+    width:60vw;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #6e6c6c;
+    margin-bottom: 20px;
+    font-family: "open sans",sans-serif;
+}

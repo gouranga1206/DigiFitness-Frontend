@@ -1,4 +1,5 @@
 import '../Styles/SearchBanner.css'
+import {Link} from 'react-router-dom';
 
 export default function SearchBanner() {
     return(
@@ -12,8 +13,10 @@ export default function SearchBanner() {
                     <div className="butt"><div className="butt2"></div></div>
                 </div>
                 <div className="Log-Sign">
-                    <div className="Button sign-in"><div id='user-1'></div>Sign in</div>
-                    <div className="Button sign-up"><div id='user-2'></div>Sign up</div>
+                    <div className="Button sign-in"><div id='user-1'></div><Link to='/signin'>Sign in</Link></div>
+                    <div className="Button sign-up"><div id='user-2'></div><Link to='/signup' style={{
+                        color:'black'
+                    }}>Sign up</Link></div>
                 </div>
             </div>
         </div>

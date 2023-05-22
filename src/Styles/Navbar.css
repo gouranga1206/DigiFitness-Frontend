@@ -39,10 +39,4 @@
     text-transform: uppercase;
 }
 
-.arrow{
-    width:2vw;
-    height:2vw;
-    background: url('../assets/Caret_Down.png') no-repeat;
-    background-position: center;
 
-}

@@ -65,3 +65,13 @@
     background: url('../assets/video_part.png') no-repeat;
     background-size: cover;
 }
+
+.VC_course a{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    width:78%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
