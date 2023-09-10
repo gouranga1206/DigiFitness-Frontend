@@ -208,3 +208,77 @@
     background:url('../assets//tagpng1.png') no-repeat;
     background-size: 80% 80%;
 }
+
+
+/* ---------------------------------- */
+
+@media screen and (max-width:1024px) {
+  
+  .tag {
+    width: 30vw;
+    height: 8vh;
+    background-size: contain;
+    background-position: center;
+  }
+  
+  .introLine {
+    width: 80vw;
+    margin-top: 3vh;
+  }
+
+  .introLine h1{
+    font-size: 2.5em;
+  }
+
+  
+  .introLine h3{
+    font-size: 1.3em;
+  }
+
+  .Images {
+    width: 85vw;
+    height: 65vh;
+  }
+
+  .Expand_Course {
+    width: 80vw;
+    height: 8vh;
+  }
+
+  .info h1{
+    font-size: 1.5em;
+  }
+    
+  .info p{
+    font-size: 1.2em;
+  }
+
+  .ExCour{
+    width: 24%;
+  }
+
+  
+  .ExCour a{
+    width: 64%;
+  }
+  
+  #arrow-1{
+    width: 10%;
+  }
+
+  .new_text h1{
+    font-size: 1.5em;
+  }
+  .new_text p{ 
+    font-size: 1em;
+  }
+
+  .partners{
+    width: 90vw;
+    height: 90%;
+  }
+  .logos{
+    width: 150px;
+    height: 40px;
+  }
+}

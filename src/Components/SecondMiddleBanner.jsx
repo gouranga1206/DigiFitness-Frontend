@@ -1,12 +1,12 @@
 import "../Styles/SecondMiddleBanner.css";
 export default function SecondMiddleBanner() {
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+  // var settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  // };
   return (
     <>
       <div className="poster-mid-2">

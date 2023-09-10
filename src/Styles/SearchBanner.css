@@ -1,126 +1,178 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
 /*---------- Search-Banner----------- */
 
-#SearchBanner{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 16px 0px;
-gap: 104px;
-width: 100vw;
-height: 15vh;
-left: 0px;
-top: 0px;
-background: #0F202B;
+#SearchBanner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+  gap: 104px;
+  width: 100vw;
+  height: 15vh;
+  left: 0px;
+  top: 0px;
+  background: #0f202b;
 }
 
-.SearchMenus{
-    width:85vw;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.SearchMenus {
+  width: 85vw;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.logo{
-    width:280px;
-    height: 80%;
-    background: url('../assets/Logo.png') no-repeat;
-    background-position: center;
+.logo {
+  width: 280px;
+  height: 80%;
+  background: url("../assets/Logo.png") no-repeat;
+  background-position: center;
 }
 /* ------------------------------------------------- */
-.Search{
-    width:60%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.Search {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.butt{
-    width: 65px;
-    height: 70%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: #1CD15D;
-    border-radius: 10px;
+.butt {
+  width: 65px;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1cd15d;
+  border-radius: 10px;
 }
-.butt1{
-    width: 100%;
-    height: 100%;
-    background: url('../assets/MenuBar.png') no-repeat;
-    background-position: center;
+.butt1 {
+  width: 100%;
+  height: 100%;
+  background: url("../assets/MenuBar.png") no-repeat;
+  background-position: center;
 }
-.butt2{
-    width: 100%;
-    height: 100%;
-    background: url('../assets/Magnifying_glass.png') no-repeat;
-    background-position: center;
-}
-
-#search-bar{
-    width: 75%;
-    height: 70%;
-    border: none;
-    outline: none;
-    font-size: 1.2rem;
-    padding: 20px;
+.butt2 {
+  width: 100%;
+  height: 100%;
+  background: url("../assets/Magnifying_glass.png") no-repeat;
+  background-position: center;
 }
 
-#search-bar::placeholder{
-    color: #ADA5A5;
-    font-size: 1.05em;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+#search-bar {
+  width: 75%;
+  height: 70%;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  padding: 20px;
 }
 
+#search-bar::placeholder {
+  color: #ada5a5;
+  font-size: 1.05em;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
 
 /* --------------------------------------------------- */
 
-.Log-Sign{
-    width: 20%;
+.Log-Sign {
+  width: 20%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Button {
+  width: 48%;
+  height: 70%;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.99vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#user-1 {
+  width: 2vw;
+  height: 4vh;
+  background: url("../assets/User-1.png") no-repeat;
+  background-position: center;
+}
+#user-2 {
+  width: 2vw;
+  height: 4vh;
+  background: url("../assets/User_02.png") no-repeat;
+  background-position: center;
+}
+
+.sign-in {
+  background-color: #1cd15d;
+  color: #ffffff;
+}
+
+.sign-up {
+  background-color: #ffffff;
+}
+
+
+/* --------------------------------------------------------------------- */
+
+@media screen and (max-width: 1024px) {
+
+    #SearchBanner {
+        width: 100vw;
+        height: 13vh;
+      }
+      
+    .SearchMenus {
+        width: 90vw;
+        height: 60%;
+      }
+  .logo {
+    width: 180px;
     height: 80%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    background-size: contain;
+  }
 
-.Button{
-    width:48%;
-    height:70%;
-    border-radius: 10px;
-    margin: 5px;
-    display: flex;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 0.99vw;
-    justify-content: center;
-    align-items: center;
+  .Search {
+    width: 55%;
+    height: 80%;
+  }
+  #search-bar {
+    width: 65%;
+    height: 70%;
 
-}
+  }
 
-#user-1{
-    width:2vw;
-    height: 4vh;
-    background: url('../assets/User-1.png') no-repeat;
-    background-position: center;
-}
-#user-2{
-    width:2vw;
-    height: 4vh;
-    background: url('../assets/User_02.png') no-repeat;
-    background-position: center;
-}
+  #search-bar::placeholder {
+    font-size: .8em;
+  }
 
-.sign-in{
-    background-color: #1CD15D;
-    color:#ffffff;
-}
+  #user-1, #user-2{
+    width: 1.5vw;
+    height: 2vh;
+    margin-right: 5px;
+    background-size: cover;
+  }
 
-.sign-up{
-    background-color: #ffffff;
+  .butt {
+    width: 55px;
+    height: 90%;
+    border-radius: 8px;
+  }
+
+
+  .Button {
+    font-size: 1.2vw;
+    width: 48%;
+    height: 80%;
+  }
 }

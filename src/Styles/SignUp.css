@@ -13,13 +13,14 @@
     color: white;
     margin-left: 8vw;
     font-family: "Open Sans";
-    font-size: 1.4em;
+    font-size: 1.9vw;
 }
 
 .signlogo{
     width: 12vw;
     height: 8vw;
     background: url('../assets/Logo.png') no-repeat;
+    background-size: contain;
     background-position: center;
 
 } 
@@ -31,13 +32,13 @@
 }
 
 .Sign-Up-Header h2{
-    font-size: 1.6em;
+    font-size: 2.4vw;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .Sign-Up-Header p{
     width:50%;
-    font-size: 0.8em;
+    font-size: 1.6vw;
     font-weight: 400;
     margin: 4px;
 }
@@ -56,7 +57,7 @@
     flex-direction: column;
     margin-bottom: 30px;
     background-color: transparent;
-    font-size: .7em;
+    font-size: .9vw;
     color: white;
     border-style: none;
     border-bottom: 1px solid white;
@@ -66,7 +67,7 @@
     width:90%;
     height:2em;
     margin-top: 20px;
-    font-size: 1em;
+    font-size: 1vw;
     font-weight: 600;
     cursor: pointer;
     margin-bottom: 20px;

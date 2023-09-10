@@ -14,13 +14,13 @@
     border-radius: 12px;
     margin-left: 8vw;
     font-family: "Open Sans", sans-serif;
-    font-size: 1.4em;
+    font-size: 1.7vw;
 }
 .Sign-In-Form form{
     width:50%;
     display: flex;
     flex-direction: column;
-    font-size: 0.8em;
+    font-size: 1.5vw;
     color: aliceblue;
 }
 .Sign-In-Form form label{
@@ -30,7 +30,7 @@
 
 .Sign-In-Form form input{
     width: 80%;
-    height: 3em;
+    height: 2vw;
     border-radius: 12px;
     border-style: none;
     margin-bottom: 0.2em;

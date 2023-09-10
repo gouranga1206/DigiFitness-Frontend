@@ -282,3 +282,178 @@ justify-content: center;
 text-decoration: none; 
 color: white;   
 }
+
+
+@media screen and (max-width:1024px) {
+
+  .footer_services_container_left {
+    width: 40%;
+    height: 100%;
+  }
+
+  .footer__container__left{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer__container__right{
+    width: 50%;
+    height: 50%;
+  }
+
+  .footer__container__right h2{
+    font-size: 1.5rem;
+  }
+  .footer_right_img{
+    width: 50%;
+    height: 20%;
+  }
+
+  .footer_right_text{
+    font-size: 1.6vw;
+  }
+
+  .footer_right_button{
+    width: 30%;
+    height: 15%;
+    font-size: 1.2vw;
+    margin-top: -1vh;
+  }
+  
+  .footer_services_container_left {
+    width: 40%;
+    height: 100%;
+  }
+
+  .footer_services_container_left p{
+    width: 90%;
+    font-size: 1.1rem;
+  }
+
+  .contact_us_footer{
+    width: 50%;
+    height: 10%;
+  }
+
+  .contact_us_footer span{
+    font-size: 0.8rem;
+  }
+
+  .footer_services_container_mid {
+    width: 40%;
+    height: 100%;
+  }
+  .footer_services_container_right {
+    width: 30%;
+    height: 100%;
+  }
+  .footer_services_container_mid table{
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer_services_container_mid table tr th {
+    font-size: 1rem;
+  }
+
+  .footer_services_container_mid table tr td a {
+    font-size: 1.3vw !important;
+  }
+  
+
+  .footer_services_container_right h2{
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  .footer_services_container_right p{
+    width: 60%;
+    margin-left: 20px;
+    font-size: 1.2vw !important;
+  }
+
+  .footer_services_container_right span{
+    width: 95%;
+    font-size: .8rem;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .subscribe{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #email-id{
+    width: 60%;
+    height: 34px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  #email-id::placeholder{
+    font-size: 0.9vw !important;
+  }
+#submit_button{
+    width: 30%;
+    height: 34px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #1cd15d;
+    color: white;
+    font-family: "open sans";
+    font-size: 1vw;
+    cursor: pointer;
+} 
+
+.left_owner{
+    width: 42%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_owner p{
+    font-weight: 400;
+    color: rgb(195, 190, 190);
+    font-size: 0.8rem;
+}
+
+.right_owner{
+    width: 62%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right_owner ul{
+    width:100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.right_owner ul li{
+  width: 30%;
+font-size: 0.8rem;
+}
+.right_owner ul li a{
+    font-size: 0.8rem;
+}
+
+}
+

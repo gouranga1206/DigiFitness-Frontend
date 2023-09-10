@@ -161,3 +161,129 @@
 .active_plan{
     border:3px solid #1CD15D;
 }
+
+
+@media screen and (max-width:1024px) {
+
+    .Planing-block{
+        width:90vw;
+        height:100vh;
+        margin-top:15vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "open sans";
+    }
+    .Planing-block h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+    .Planing-block h3{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+        color: grey;
+        margin-top: -2vh;
+        margin-bottom: 5vh;
+    }
+    
+    .plan-box{
+        width:80%;
+        height: 10%;
+        display: flex;
+    }
+    .block{
+        width:calc(50vw/2.5);
+        height: 90%;
+        margin:0 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(0, 0, 0);
+        border: 1px solid rgb(96, 94, 94);
+    }
+    
+    .active_box{
+        background-color: #1CD15D;
+        color: white;
+        border: none;
+    }
+    
+    .payment-box{
+        width: 90%;
+        height: 70%;
+        margin-top:8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .charges-box{
+        width:31%;
+        height: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);   
+        display: flex;
+        flex-direction:column ;
+    }
+    
+    .Plan_text_box{
+        width:100%;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 700;
+        font-family: "Open Sans";
+        margin-top: 2vh;
+    }
+    .Plan_text_box h2{
+        color:#1CD15D;
+        font-size: 1.5rem;
+    }
+
+    .benefit_box{
+        width:90%;
+        height: 48%;
+        margin: auto;
+        margin-top:0vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .check{
+        width:30px;
+        height: 30px;
+        background:url('../assets/Check.png') no-repeat center;
+        margin-right: 1vw;
+        margin-left: 1.5vw;
+    }
+    .benefits_text{
+        font-size: .8rem;
+        font-weight: 600;
+    }
+
+    .benefit_button_box{
+        margin: 3vh auto;
+        width:90%;
+        height: 13%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #1CD15D;
+        color:white;
+        font-size: 1rem;
+    }
+  
+    .no-style-box{
+        background-color: transparent;
+        color: #000000;
+        border:1px solid #000000;
+    }
+    
+}

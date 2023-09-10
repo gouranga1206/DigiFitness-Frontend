@@ -1,4 +1,5 @@
 import "../Styles/Rating.css";
+import {Link} from 'react-router-dom';
 export default function Rating() {
   return (
     <>
@@ -35,7 +36,7 @@ export default function Rating() {
                 $60 <del>$120</del>
               </p>
               <div className="Learn-More">
-                Learn More <div id="arrow-black">&#8599;</div>
+                Learn More <Link to='/learnmore' style={{color:'black'}}><div id="arrow-black">&#8599;</div></Link>
               </div>
             </div>
           </div>
@@ -72,7 +73,7 @@ export default function Rating() {
                 $25 <del>$120</del>
               </p>
               <div className="Learn-More">
-                Learn More <div id="arrow-black">&#8599;</div>
+                Learn More <Link to='/learnmore' style={{color:'black'}}><div id="arrow-black">&#8599;</div></Link>
               </div>
             </div>
           </div>
@@ -109,7 +110,7 @@ export default function Rating() {
                 $40 <del>$120</del>
               </p>
               <div className="Learn-More">
-                Learn More <div id="arrow-black">&#8599;</div>
+                Learn More <Link to='/learnmore' style={{color:'black'}}><div id="arrow-black">&#8599;</div></Link>
               </div>
             </div>
           </div>
@@ -151,7 +152,7 @@ export default function Rating() {
                 $35 <del>$120</del>
               </p>
               <div className="Learn-More">
-                Learn More <div id="arrow-black">&#8599;</div>
+                Learn More <Link to='/learnmore' style={{color:'black'}}><div id="arrow-black">&#8599;</div></Link>
               </div>
             </div>
           </div>
@@ -188,7 +189,7 @@ export default function Rating() {
                 $100 <del>$250</del>
               </p>
               <div className="Learn-More">
-                Learn More <div id="arrow-black">&#8599;</div>
+                Learn More <Link to='/learnmore' style={{color:'black'}}><div id="arrow-black">&#8599;</div></Link>
               </div>
             </div>
           </div>
@@ -225,7 +226,7 @@ export default function Rating() {
                 $120 <del>$500</del>
               </p>
               <div className="Learn-More">
-                Learn More <div id="arrow-black">&#8599;</div>
+                Learn More <Link to='/learnmore' style={{color:'black'}}><div id="arrow-black">&#8599;</div></Link>
               </div>
             </div>
           </div>
@@ -267,7 +268,7 @@ export default function Rating() {
                 $150 <del>$500</del>
               </p>
               <div className="Learn-More">
-                Learn More <div id="arrow-black">&#8599;</div>
+                Learn More <Link to='/learnmore' style={{color:'black'}}><div id="arrow-black">&#8599;</div></Link>
               </div>
             </div>
           </div>
@@ -304,7 +305,7 @@ export default function Rating() {
                 $60 <del>$120</del>
               </p>
               <div className="Learn-More">
-                Learn More <div id="arrow-black">&#8599;</div>
+                Learn More <Link to='/learnmore' style={{color:'black'}}><div id="arrow-black">&#8599;</div></Link>
               </div>
             </div>
           </div>
@@ -341,7 +342,7 @@ export default function Rating() {
                 $60 <del>$120</del>
               </p>
               <div className="Learn-More">
-                Learn More <div id="arrow-black">&#8599;</div>
+                Learn More <Link to='/learnmore' style={{color:'black'}}><div id="arrow-black">&#8599;</div></Link>
               </div>
             </div>
           </div>

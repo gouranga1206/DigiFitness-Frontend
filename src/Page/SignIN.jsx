@@ -1,7 +1,30 @@
 import "../Styles/SignIN.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import axios from "../../../DigiFitness-Backend/node_modules/axios/index.js";
+
 
 let SignIN = () => {
+  const[email, setEmail] = useState('');
+  const[password, setPassword] = useState('');
+  const navigate = useNavigate();
+  const handleSubmit = (e) => {
+      e.preventDefault();
+      axios.post('http://127.0.0.1:5000/api/user/login', {
+          email,password
+      })
+      .then(res => {
+          if(res.data=== "success"){
+            navigate('/');
+          }
+      }
+      )
+      .catch(err => {
+          console.log(err);
+      }
+      )
+  }
+
   return (
     <div className="Sign-In">
       <div className="Sign-In-Container">
@@ -22,11 +45,11 @@ let SignIN = () => {
               It takes less than a minute.
             </p>
 
-            <form>
+            <form onSubmit={handleSubmit}>
               <label htmlFor="email">Email:</label>
-              <input type="text" placeholder="Email" name="email" />
+              <input type="text" placeholder="Email" name="email" onChange={e=>{setEmail(e.target.value)}}/>
               <label htmlFor="password">Password:</label>
-              <input type="password" placeholder="Password" name="password" />
+              <input type="password" placeholder="Password" name="password" onChange={e=>{setPassword(e.target.value)}}/>
               <p>Forget Password ?</p>
               <button type="submit">Sign In</button>
             </form>

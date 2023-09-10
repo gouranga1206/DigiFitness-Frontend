@@ -69,3 +69,21 @@
     font-size:  1vw;
 
 }
+
+@media screen and (max-width:1024px) {
+    .Images-box{
+        width: 85vw;
+        height: 65vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .text h2{
+        font-size: 1.6vw;
+    }
+
+    .text p{
+        font-size: 1.2vw;
+    }
+}
